@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import Com.crm.qa.base.Testbase;
+import com.crm.qa.base.Testbase;
 import Com.crm.qa.pages.Homepage;
 import Com.crm.qa.pages.Loginpage;
 import junit.framework.Assert;
@@ -15,7 +15,7 @@ public class Loginpagetest extends Testbase{
 	Loginpage loginpage;
 	Homepage homepage;
 	public Loginpagetest() throws IOException {
-		super();
+		super();  
 	}
 
 	@BeforeMethod()
